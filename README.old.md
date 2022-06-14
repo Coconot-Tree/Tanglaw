@@ -1,2 +1,0 @@
-# Tanglaw
-Tanglaw Academic Repository
