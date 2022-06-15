@@ -7,9 +7,9 @@ const Browse = () => {
         <h2>Browse</h2>
         <hr />
             <div className='tanglaw__sidebar-browse-category'>
-                <li><a href="#">Disciplines</a></li>
-                <li><a href="#">Colleges and Units</a></li>
-                <li><a href="#">Authors</a></li>
+                <li><a href="/Browse-Disciplines">Disciplines</a></li>
+                <li><a href="/Browse-Colleges-and-Units">Colleges and Units</a></li>
+                <li><a href="/Browse-Authors">Authors</a></li>
         </div>
     </div>
     
