@@ -2,13 +2,13 @@ import React from 'react';
 import './style.css';
 import {Cards } from '../components';
 
-const Contact = () => {
+const Disciplines = () => {
   return (
     <div className="tanglaw__page-title">
-    <h2>Contact Us</h2>
-    <Cards />
+        <h2>Browse by Authors</h2>
+        <Cards />
     </div>
   )
 }
 
-export default Contact;
+export default Disciplines;

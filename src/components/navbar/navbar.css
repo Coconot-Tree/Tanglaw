@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 6rem;
+    padding: 0.5rem 6rem;
     
 }
 
@@ -18,7 +18,7 @@
 }
 
 .tanglaw__navbar-links_logo img {
-    height: 100px;
+    height: 95px;
 }
 
 .tanglaw__navbar-links_container {
@@ -107,11 +107,19 @@
     .tanglaw__navbar-menu {
         display: flex;
     }
+
+    .tanglaw__navbar-links_logo img {
+        height: 80px;
+    }
 }
 
 @media screen and (max-width: 700px) {
     .tanglaw__navbar {
         padding: 2rem 4rem;
+    }
+
+    .tanglaw__navbar-links_logo img {
+        height: 60px;
     }
 }
 
@@ -130,5 +138,9 @@
 
     .tanglaw__navbar-menu_container-links-sign {
         display: block;
+    }
+
+    .tanglaw__navbar-links_logo img {
+        height: 50px;
     }
 }

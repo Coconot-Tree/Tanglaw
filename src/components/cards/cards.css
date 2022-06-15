@@ -1,0 +1,29 @@
+.tanglaw__cards {
+    padding-top: 2vh;
+    font-family: var(--font-family);
+}
+
+.tanglaw__cards-container {
+    z-index: -5;
+    position: relative;
+    height: auto;
+    background: #fff;
+    border-radius: 6px;
+    color: #000;
+    display: block;
+    padding: 24px 20px;
+    margin: 0 10%;
+    overflow: visible;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tanglaw__cards-container a {
+    padding: 3px;
+    text-decoration: none;
+    color: #730702;
+}
+
+.tanglaw__cards-container a {
+    cursor: pointer;
+    color: #A1231E;
+}

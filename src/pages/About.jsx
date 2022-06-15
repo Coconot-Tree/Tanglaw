@@ -1,8 +1,13 @@
     import React from 'react';
+    import './style.css'
+    import {Cards } from '../components'
     
     const About = () => {
       return (
-        <div> About</div>
+        <div className="tanglaw__page-title">
+        <h2>About Us</h2>
+        <Cards />
+      </div>
       )
     }
     

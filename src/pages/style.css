@@ -1,68 +1,10 @@
-/** Start: Right Column**/
-.right {
-    width: 75%;
+.tanglaw__page-title {
+    font-family: var(--font-family);
     margin-left: 300px;
-    padding-top: 50px;
+    padding-top: 20vh;
 }
 
-.right h2 {
-    padding: 0 0 20px 10px;
-}
-
-.right h3 {
-    padding: 10px 0;
-    text-align: center;
-}
-
-.directory {
-    margin-top: -20px;
-    padding: 2px 0 0px 10px;
-}
-
-.directory a{
-    font-size: small;
-    padding: 3px;
-    text-decoration: none;
-}
-
-.right a {
-    color: #730702;
-}
-
-.right a:hover {
-    text-decoration: underline;
-    color: #A1231E;
-}
-
-.card {
-    position:relative;
-    background: #fff;
-    border-radius: 6px;
-    color: #000;
-    display: block;
-    padding: 24px 20px;
-    margin: 10px auto;
-    width: 80%;
-    overflow: visible;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-}
-
-.card a {
-    text-decoration: none;
-}
-
-.home a{
-    font-style: italic;
-}
-
-.card li {
-    list-style: none;
-}
-
-.contact h4{
-    padding-bottom: 5px;
-}
-
-.contact p{
-    padding-bottom: 2px 0;
+.tanglaw__page-title h2 {
+    z-index: -5;
+    padding: 0 0 20px 30px;
 }
