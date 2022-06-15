@@ -1,0 +1,14 @@
+.tanglaw__sidebar {
+    justify-content: space-between;
+    height: 100vh;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+    font-family: var(--font-family);
+    padding: 0.5rem 1rem;
+}
+
+.tanglaw__sidebar-links-container {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/tanglaw.png';
 import './navbar.css';
 
 const Menu = () => (
@@ -21,14 +21,16 @@ const Navbar = () => {
         <div className="tanglaw__navbar-links_logo">
           <img src={logo} />
         </div>
-        <div className="tanglaw__navbar-links_container">
-          <Menu />
-        </div>
       </div>
+      <div className="tanglaw__navbar-links_container">
+        <Menu />
+      </div>
+      {/*
       <div className="tanglaw__navbar-sign">
         <p>Faculty</p>
         <button type="button">Student</button>
       </div>
+      */}
       <div className="tanglaw__navbar-menu">
         {toggleMenu
           ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
@@ -38,10 +40,12 @@ const Navbar = () => {
           <div className="tanglaw__navbar-menu_container-links">
             <Menu />
           </div>
+        {/*
           <div className="tanglaw__navbar-menu_container-links-sign">
             <p>Faculty</p>
             <button type="button">Student</button>
-          </div>
+          </div> 
+        */}
         </div>
         )}
       </div>

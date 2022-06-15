@@ -18,7 +18,7 @@
 }
 
 .tanglaw__navbar-links_logo img {
-    width: 80px;
+    height: 100px;
 }
 
 .tanglaw__navbar-links_container {
@@ -32,9 +32,10 @@
     align-items: center;
 }
 
+
 .tanglaw__navbar-links_container p,
 .tanglaw__navbar-sign p,
-.tanglaw__navbar-menu_container p {
+.tanglaw__navbar-menu_container p{
     color: #fff;
     font-family: var(--font-family);
     font-weight: 500;
@@ -50,7 +51,7 @@
 .tanglaw__navbar-menu_container button {
     padding: 0.5rem 1rem;
     color: #fff;
-    background: #dd9b00;
+    background: var(--color-button);
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -80,12 +81,12 @@
     
     text-align: end;
     background: var(--color-footer);
-    padding: 2rem;
+    padding: 1rem;
     position: absolute;
     right: 0;
     top: 40px;
-    margin-top: 1rem;
-    min-width: 210px;
+    margin-top: 2rem;
+    min-width: 200px;
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
 }
