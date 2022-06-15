@@ -3,6 +3,10 @@
     font-family: var(--font-family);
 }
 
+.tanglaw__sidebar-searchbar {
+    margin: .5rem 0;
+}
+
 .tanglaw__sidebar-searchbar_inputs input{
     height: 30px;
     width: 79%;

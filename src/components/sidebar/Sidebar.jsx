@@ -9,7 +9,6 @@ const Sidebar = () => {
       <div className='tanglaw__sidebar-links'>
         <div className="tanglaw__sidebar-links_container">
           <Search />
-          <a href="#">Advanced Search</a>
           <Browse />
         </div>
       </div>

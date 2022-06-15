@@ -10,6 +10,7 @@ const Search = ({placeholder, data}) => {
         <div className='tanglaw__sidebar-searchbar_inputs'>
           <input type="text" placeholder="Search Keyword.."/>
           <button>Search</button>
+          <a href="#">Advanced Search</a>
         </div>
       </div>
       <div className='tanglaw__sidebar-searchbar_dataresult'>

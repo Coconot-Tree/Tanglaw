@@ -2,3 +2,14 @@
     margin-top: 3rem;
     font-family: var(--font-family);
 }
+
+.tanglaw__sidebar-browse-category {
+    margin: .5rem 0;
+    list-style: none;
+}
+
+.tanglaw__sidebar-browse-category li {
+    padding: 2px 0 2px 1rem;
+    font-style: italic;
+    color: var(--color-text);
+}
