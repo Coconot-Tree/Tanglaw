@@ -7,6 +7,7 @@ const Disciplines = () => {
   return (
     <div className="tanglaw__page-title">
         <h2>Browse by Disciplines</h2>
+        {/*<a href="/Disciplines"> ← Back to Disciplines </a>*/}
         <Cards />
     </div>
   )

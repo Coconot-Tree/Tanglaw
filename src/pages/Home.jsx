@@ -7,6 +7,11 @@ const home = () => {
   return (
     <div className="tanglaw__page-title">
       <h2>Recent Additions</h2>
+      <Cards 
+        CTitle={'Title Place Holder'}
+        CLink={'#'}
+        CText={""}
+        />
       <Cards />
     </div>
   )

@@ -1,5 +1,5 @@
 .tanglaw__cards {
-    padding-top: 2vh;
+    padding-top: 1rem;
     font-family: var(--font-family);
 }
 
@@ -17,13 +17,18 @@
 }
 
 .tanglaw__cards-text a {
+    font-style: italic;
     z-index: 5;
-    padding: 3px;
     text-decoration: none;
     color: #730702;
 }
 
-.tanglaw__cards-text a {
-    cursor: pointer;
+.tanglaw__cards-text a:hover {
+    text-decoration: underline;
     color: #A1231E;
+}
+
+.tanglaw__cards p {
+    z-index: 5;
+    padding: 0 2rem;
 }

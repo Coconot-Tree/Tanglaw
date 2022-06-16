@@ -13,3 +13,7 @@
     font-style: italic;
     color: var(--color-text);
 }
+
+.tanglaw__sidebar-browse-category li:hover {
+    text-decoration: underline;
+}
