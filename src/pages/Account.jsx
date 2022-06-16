@@ -1,8 +1,9 @@
 import React from 'react';
 
 const Account = () => {
+  document.title = "Tanglaw | My Account";
   return (
-    <div>Account</div>
+    <div>My Account</div>
   )
 }
 
