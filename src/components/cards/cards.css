@@ -4,7 +4,6 @@
 }
 
 .tanglaw__cards-container {
-    z-index: -5;
     position: relative;
     height: auto;
     background: #fff;
@@ -17,13 +16,14 @@
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
-.tanglaw__cards-container a {
+.tanglaw__cards-text a {
+    z-index: 5;
     padding: 3px;
     text-decoration: none;
     color: #730702;
 }
 
-.tanglaw__cards-container a {
+.tanglaw__cards-text a {
     cursor: pointer;
     color: #A1231E;
 }

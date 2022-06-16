@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className="tanglaw__navbar">
       <div className="tanglaw__navbar-links">
         <div className="tanglaw__navbar-links_logo">
-          <img src={logo} />
+          <a href="/Home"> <img src={logo} /> </a>
         </div>
       </div>
       <div className="tanglaw__navbar-links_container">

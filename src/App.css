@@ -15,6 +15,7 @@ a {
 }
 
 .gradient__bg {
+  z-index: 99;
   position:fixed;
   height: 15vh;
   width: 100%;

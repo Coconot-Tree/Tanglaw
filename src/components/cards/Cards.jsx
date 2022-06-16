@@ -5,7 +5,9 @@ const Cards = () => {
   return (
     <div className="tanglaw__cards">
         <div className='tanglaw__cards-container'>
-            <a href='/'>test</a>
+            <div className='tanglaw__cards-text'>
+              <a href='#'> Text </a>
+            </div>
         </div>
     </div>
   )
