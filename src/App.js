@@ -12,6 +12,10 @@ const App = () => {
         <Navbar />
       </div>
 
+    <div className="root">
+      <button className='button'>New</button>
+    </div>
+
     <div className='App '>
       <Routes>
         <Route index element={<Home />} />
