@@ -1,18 +1,14 @@
 import React from 'react';
-import './cards.css';
+import './cards-account.css';
 import { Segment } from 'semantic-ui-react'
 
-const CardsAccount = ({Name, IdNum}) => {
+const CardsAccount = ({Name}) => {
   return (
-    <div className="tanglaw__cards">
-        <div className='tanglaw__cards-container'>
-            <div className='tanglaw__cards-text'>
-                <Segment>
-                    <h1>{Name}</h1>
-                    <p>{IdNum}</p>
-                </Segment>
-            </div>
-        </div>
+    <div className="tanglaw__account">
+      <div className='tanglaw__account-profile'>
+        <h1>{Name}</h1>
+        <a href='#'>Log Out</a>
+      </div>
     </div>
   )
 }

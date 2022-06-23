@@ -1,0 +1,86 @@
+.tanglaw__bookmark {
+    padding-top: 1rem;
+    font-family: var(--font-family);
+}
+
+.tanglaw__bookmark-container {
+    position: relative;
+    height: auto;
+    background: #fff;
+    border-radius: 6px;
+    color: #000;
+    display: block;
+    padding: 2rem;
+    margin: 0 10%;
+    overflow: visible;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tanglaw__bookmark-container h3 {
+    font-size: x-large;
+}
+
+.tanglaw__bookmark-tags p {
+    padding-top: 2rem;
+    font-size: smaller;
+    display: inline-block;
+    margin: 0;
+    padding: 2rem 5% 0 5%;
+}
+
+.tanglaw__bookmark-container a, h3 {
+    z-index: 5;
+    text-decoration: none;
+    color: var(--color-button);
+}
+
+.tanglaw__bookmark-container p {
+    padding: 1rem 0 0 0;
+}
+
+.tanglaw__bookmark-tags a:hover{
+    text-decoration: underline;
+    color: var(--color-hover);
+}
+
+.tanglaw__dropdown {
+    float: right;
+}
+
+.tanglaw__dropdown, .tanglaw__dropdown-button {
+    border: none;
+    outline: none;
+}
+
+.tanglaw__dropdown-button img{
+    height: 1rem;
+}
+
+.tanglaw__dropdown-content {
+    margin-right: 1rem;
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: var(--color-button);
+    min-width: 5rem;
+    z-index: 1;
+  }
+
+  .tanglaw__dropdown-content a {
+    float: none;
+    font-size: smaller;
+    color: #fff;
+    font-weight: 500;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+  }
+  
+  .tanglaw__dropdown-content a:hover {
+    background-color: var(--color-hover);
+  }
+
+  .tanglaw__dropdown:hover .tanglaw__dropdown-content {
+    display: block;
+  }

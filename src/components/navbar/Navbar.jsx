@@ -25,12 +25,6 @@ const Navbar = () => {
       <div className="tanglaw__navbar-links_container">
         <Menu />
       </div>
-      {/*
-      <div className="tanglaw__navbar-sign">
-        <p>Faculty</p>
-        <button type="button">Student</button>
-      </div>
-      */}
       <div className="tanglaw__navbar-menu">
         {toggleMenu
           ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
@@ -40,12 +34,6 @@ const Navbar = () => {
           <div className="tanglaw__navbar-menu_container-links">
             <Menu />
           </div>
-        {/*
-          <div className="tanglaw__navbar-menu_container-links-sign">
-            <p>Faculty</p>
-            <button type="button">Student</button>
-          </div> 
-        */}
         </div>
         )}
       </div>

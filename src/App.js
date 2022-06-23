@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navbar, Sidebar } from './components';
-import {Home, About, Account, Contact, NoPage, 
+import {Home, About, Account, Admin, Contact, NoPage, 
         Authors, Colleges, Disciplines } from './pages';
 import './App.css';
 
@@ -18,6 +18,7 @@ const App = () => {
         <Route path="Home" element={<Home />} />
         <Route path="About" element={<About />} />
         <Route path="Account" element={<Account />} />
+        <Route path="Admin" element={<Admin />} />
         <Route path="Contact" element={<Contact />} />
         <Route path="Authors" element={<Authors />} />
         <Route path="Colleges" element={<Colleges />} />
