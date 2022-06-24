@@ -10,25 +10,35 @@
     border-radius: 6px;
     color: #000;
     display: block;
-    padding: 24px 20px;
+    padding: 2rem;
     margin: 0 10%;
     overflow: visible;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
-.tanglaw__cards-text a {
-    font-style: italic;
+.tanglaw__cards-container h3 {
+    font-size: x-large;
+}
+
+.tanglaw__cards-tags p {
+    padding-top: 2rem;
+    font-size: smaller;
+    display: inline-block;
+    margin: 0;
+    padding: 2rem 5% 0 5%;
+}
+
+.tanglaw__cards-container a, h3 {
     z-index: 5;
     text-decoration: none;
-    color: #730702;
+    color: var(--color-button);
 }
 
-.tanglaw__cards-text a:hover {
+.tanglaw__cards-container h3 {
+    padding-bottom: 1rem;
+}
+
+.tanglaw__cards-tags a:hover{
     text-decoration: underline;
-    color: #A1231E;
-}
-
-.tanglaw__cards p {
-    z-index: 5;
-    padding: 0 2rem;
+    color: var(--color-hover);
 }

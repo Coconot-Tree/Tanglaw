@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import {CardsAdmin, CardsUpload } from '../components'
+import {CardsAdmin, CardsUpload } from '../containers'
 
 const Admin = () => {
   document.title = "Admin";

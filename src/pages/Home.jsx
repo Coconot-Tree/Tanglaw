@@ -10,7 +10,7 @@ const home = () => {
       <Cards 
         CTitle={'Title Place Holder'}
         CLink={'#'}
-        CText={""}
+        CText={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra mi eget lacus accumsan, nec commodo velit bibendum. Pellentesque lacinia dolor non imperdiet aliquet. "}
         />
       <Cards />
     </div>

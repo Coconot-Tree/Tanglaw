@@ -1,5 +1,6 @@
 import React from 'react';
-import {CardsAccount, CardsBookmark} from '../components';
+import './style.css';
+import {CardsAccount, CardsBookmark} from '../containers';
 
 const Account = () => {
   document.title = "Tanglaw | My Account";
