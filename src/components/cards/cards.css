@@ -28,6 +28,9 @@
     padding: 2rem 5% 0 5%;
 }
 
+.tanglaw__cards-text p{
+    color: black;
+}
 .tanglaw__cards-container a, h3 {
     z-index: 5;
     text-decoration: none;
