@@ -6,8 +6,8 @@ const Contact = () => {
   document.title = "Tanglaw | Contact Us";
   return (
     <div className="tanglaw__page-title">
-      <h2>Contact Us</h2>
       <Cards 
+       CTitle={'Contact Us'}
         Cpup = {"Polytechnic University of the Philippines"}
         Ccea = {"College of Engineering and Architecture Bldg."}
         CAddress = {"Anonas St., Sta. Mesa"}
