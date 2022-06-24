@@ -77,6 +77,22 @@ summary::-webkit-details-marker {
 }
 
 /*****/
-.hidden { 
-    display:none; 
+.alphabet{
+    text-align: center;
+}
+
+.alphabet li{
+	display: inline-block;
+}
+
+.alphabet a {
+    margin: .7rem;
+}
+
+.alphabet a:hover{
+    background-color: #A1231E;
+    color: white;
+    text-decoration: none;
+    padding: .3rem;
+    font-weight: 1000;
 }
