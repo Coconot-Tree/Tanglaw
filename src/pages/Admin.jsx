@@ -16,14 +16,6 @@ const Admin = () => {
         Tag2={"#Mema2"}
         Tag3={"#Mema3"}
     />
-    <CardsUpload
-        Thesis={""} 
-        Abstract={""}
-        Tag1={""}
-        Tag2={""}
-        Tag3={""}
-      />
-    
   </div>
   )
 }

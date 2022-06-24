@@ -1,8 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navbar, Sidebar } from './components';
-import {Home, About, Account, Admin, Contact, NoPage, 
-        Authors, Colleges, Disciplines } from './pages';
+import { Home, About, Account, Admin, Contact, NoPage,
+  BrowseCE, BrowseIE, BrowseRE, BrowseCET, BrowseEET,
+  BrowseECET, BrowseMET, BrowseICT, BrowseOM} from './pages';
 import './App.css';
 
 const App = () => {
@@ -20,9 +21,15 @@ const App = () => {
         <Route path="Account" element={<Account />} />
         <Route path="Admin" element={<Admin />} />
         <Route path="Contact" element={<Contact />} />
-        <Route path="Authors" element={<Authors />} />
-        <Route path="Colleges" element={<Colleges />} />
-        <Route path="Disciplines" element={<Disciplines />} />
+        <Route path="BrowseCE" element ={<BrowseCE />} />
+        <Route path="BrowseIE" element ={<BrowseIE />} />
+        <Route path="BrowseRE" element ={<BrowseRE />} />
+        <Route path="BrowseCET" element ={<BrowseCET />} />
+        <Route path="BrowseEET" element ={<BrowseEET />} />
+        <Route path="BrowseECET" element ={<BrowseECET />} />
+        <Route path="BrowseMET" element ={<BrowseMET />} />
+        <Route path="BrowseICT" element ={<BrowseICT />} />
+        <Route path="BrowseOM" element ={<BrowseOM />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
       

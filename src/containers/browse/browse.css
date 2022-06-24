@@ -1,5 +1,5 @@
 .tanglaw__sidebar-browse {
-    margin-top: 3rem;
+    margin-top: 2rem;
     font-family: var(--font-family);
 }
 
@@ -9,7 +9,8 @@
 }
 
 .tanglaw__sidebar-browse-category li {
-    padding: 2px 0 2px 1rem;
+    font-size: .9rem;
+    padding: .5rem 0 .5rem 1rem;
     font-style: italic;
     color: var(--color-text);
 }

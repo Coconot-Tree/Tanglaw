@@ -2,7 +2,7 @@ import React from 'react';
 import './cards.css';
 import { Segment } from 'semantic-ui-react';
 
-const Cards = ({CTitle, CLink, CText, CAbout, Cpup, Ccea, CAddress, CCity, CNum1, CNum2, CEmail}) => {
+const Cards = ({CTitle, CLink,CAuthor, CText, CAbout, Cpup, Ccea, CAddress, CCity, CNum1, CNum2, CEmail}) => {
   return (
     <div className="tanglaw__cards">
         <div className='tanglaw__cards-container'>
@@ -10,6 +10,7 @@ const Cards = ({CTitle, CLink, CText, CAbout, Cpup, Ccea, CAddress, CCity, CNum1
               <a href={CLink}>
               <Segment>
                 <h3>{CTitle}</h3>
+                <h4>{CAuthor}</h4>
                 <p>{CText}</p>
               </Segment>
               </a>

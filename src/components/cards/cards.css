@@ -37,7 +37,8 @@
     color: var(--color-button);
 }
 
-.tanglaw__cards-container h3 {
+.tanglaw__cards-container h4 {
+    font-style: italic;
     padding-bottom: 1rem;
 }
 

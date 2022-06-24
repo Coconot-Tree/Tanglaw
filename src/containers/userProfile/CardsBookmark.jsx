@@ -3,7 +3,7 @@ import { Segment } from 'semantic-ui-react';
 import arrow from '../../assets/downarrow.png';
 import './cards-bookmark.css';
 
-const CardsBookmark = ({Thesis,Abstract, Tag1, Tag2, Tag3 }) => {
+const CardsBookmark = ({CLink, CTitle, CAuthor, CText, Tag1, Tag2, Tag3 }) => {
   return (
     <div className="tanglaw__bookmark">
         <div className='tanglaw__bookmark-container'>
@@ -13,8 +13,13 @@ const CardsBookmark = ({Thesis,Abstract, Tag1, Tag2, Tag3 }) => {
                 <a href="#">Remove Bookmark</a>
               </div>
           </div>
-          <a href='#'> <h3>{Thesis}</h3> </a>
-          <p>{Abstract}</p>
+            <a href={CLink}>
+              <Segment>
+                <h3>{CTitle}</h3>
+                <h4>{CAuthor}</h4>
+                <p>{CText}</p>
+              </Segment>
+            </a>
 
           <div className='tanglaw__bookmark-tags'>
               <p><strong>Tags: </strong></p> 
